@@ -5,7 +5,9 @@
 
 <div itemscope itemtype="https://schema.org/Person">
   <div class="author__avatar">
-    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="Yitian Jin" fetchpriority="high" itemprop="image" />
+    <div class="author__avatar-frame">
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="Yitian Jin" fetchpriority="high" itemprop="image" />
+    </div>
   </div>
 
   <div class="author__content">
