@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-lead"><strong>I am an undergraduate researcher interested in developing innovative, experimentally grounded robot learning methods and systems for real-world deployment.</strong></p>
+<p class="home-lead home-lead--justified">I am an undergraduate researcher interested in developing innovative, experimentally grounded robot learning methods and systems for real-world deployment.</p>
 
 ## Current Role
 

@@ -103,9 +103,10 @@
   line-height: 1.75;
 }
 
-.home-lead strong {
-  color: var(--global-text-color);
-  font-weight: 700;
+.home-lead--justified {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .page__content h2 {
