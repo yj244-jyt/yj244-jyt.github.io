@@ -104,9 +104,16 @@
 }
 
 .home-lead--justified {
-  text-align: justify;
-  text-justify: inter-word;
+  text-wrap: balance;
   hyphens: auto;
+}
+
+@media screen and (min-width: 601px) {
+  .home-lead--justified {
+    text-align: justify;
+    text-justify: inter-word;
+    text-wrap: pretty;
+  }
 }
 
 .page__content h2 {
