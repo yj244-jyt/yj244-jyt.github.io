@@ -24,7 +24,3 @@ I am pursuing a B.S. in **Applied Mathematics & Computational Sciences / Compute
 - Robot Learning and Embodied AI
 - Equivariant Neural Networks
 - Deep Learning and Computer Vision
-
-## Personal Website
-
-[https://yj244-jyt.github.io](https://yj244-jyt.github.io)
