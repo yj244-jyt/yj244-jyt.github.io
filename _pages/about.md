@@ -9,11 +9,11 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-lead"><strong>I am an undergraduate researcher interested in developing innovative and experimental robot policies and systems that are useful in the physical world.</strong></p>
+<p class="home-lead"><strong>I am an undergraduate researcher interested in developing innovative, experimentally grounded robot learning methods and systems for real-world deployment.</strong></p>
 
 ## Current Role
 
-I am a **Research Intern at [Noematrix](https://www.noematrix.ai/en)**, an embodied AI company developing general-purpose robot intelligence. My work focuses on deploying robot policies on physical robot platforms, hand-eye calibration, SLAM accuracy evaluation, teleoperation, and closed-loop benchmarking workflows.
+I am a **Research Intern at [Noematrix](https://www.noematrix.ai/en)**, an embodied AI company developing general-purpose robot intelligence. My work focuses on deploying robot policies on physical robot platforms, hand-eye calibration, SLAM accuracy evaluation, building teleoperation platform, and closed-loop benchmarking workflows.
 
 ## Education
 
