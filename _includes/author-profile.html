@@ -1,0 +1,25 @@
+{% include base_path %}
+{% assign author = site.author %}
+{% assign is_chinese = false %}
+{% if page.lang == "zh-CN" %}{% assign is_chinese = true %}{% endif %}
+
+<div itemscope itemtype="https://schema.org/Person">
+  <div class="author__avatar">
+    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="Yitian Jin" fetchpriority="high" itemprop="image" />
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    <p class="author__bio" itemprop="description">{% if is_chinese %}{{ author.bio_zh }}{% else %}{{ author.bio }}{% endif %}</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">{% if is_chinese %}联系方式{% else %}Contact{% endif %}</button>
+    <ul class="author__urls social-icons">
+      <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{% if is_chinese %}{{ author.location_zh }}{% else %}{{ author.location }}{% endif %}</li>
+      <li class="author__desktop"><a href="{{ author.employer_url }}" itemprop="worksFor"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{% if is_chinese %}{{ author.employer_zh }}{% else %}{{ author.employer }}{% endif %}</a></li>
+      <li><a href="mailto:{{ author.email }}" itemprop="email"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{% if is_chinese %}电子邮件{% else %}Email{% endif %}</a></li>
+      <li><a href="https://github.com/{{ author.github }}" itemprop="sameAs"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+{% include base_path %}
+{% assign is_chinese = false %}
+{% if page.lang == "zh-CN" %}{% assign is_chinese = true %}{% endif %}
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    <li><strong>{% if is_chinese %}联系{% else %}Connect{% endif %}</strong></li>
+    <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> {% if is_chinese %}电子邮件{% else %}Email{% endif %}</a></li>
+    <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name }}.
+  {% if is_chinese %}
+    使用 <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> 与 <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a> 构建。最后更新于 {{ "now" | date: '%Y-%m-%d' }}。
+  {% else %}
+    Built with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> and <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. Last updated {{ "now" | date: '%Y-%m-%d' }}.
+  {% endif %}
+</div>

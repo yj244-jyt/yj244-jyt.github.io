@@ -1,0 +1,112 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar"
+;
+
+/* Personal site refinements */
+.greedy-nav .visible-links {
+  width: 100%;
+}
+
+.greedy-nav .visible-links .language-switch {
+  width: 1%;
+  padding-right: 0.6rem;
+  text-align: right;
+}
+
+.greedy-nav .visible-links .language-switch a {
+  display: inline-flex;
+  margin: 0 0.2rem;
+  padding: 0.45rem 0.15rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.greedy-nav .visible-links .language-switch a.is-active {
+  color: var(--global-text-color);
+  font-weight: 700;
+  border-bottom: 2px solid var(--global-text-color);
+}
+
+.greedy-nav .visible-links .language-switch a.is-active::before {
+  display: none;
+}
+
+.author__avatar img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+.home-lead {
+  max-width: 46rem;
+  margin-bottom: 2.2rem !important;
+  color: var(--global-text-color-light);
+  font-size: 1.12rem !important;
+  line-height: 1.75;
+}
+
+.page__content h2 {
+  margin-top: 2.2rem;
+  letter-spacing: 0;
+}
+
+.page__content li {
+  margin-bottom: 0.45rem;
+}
+
+.site-note {
+  margin-top: 2.5rem !important;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+  font-size: 0.82rem !important;
+}
+
+@media screen and (max-width: 600px) {
+  .masthead__menu-item--lg {
+    padding-right: 0.5rem;
+  }
+
+  .greedy-nav .visible-links .language-switch {
+    padding-right: 0.2rem;
+  }
+
+  .greedy-nav .visible-links .language-switch a {
+    margin: 0 0.1rem;
+  }
+}
