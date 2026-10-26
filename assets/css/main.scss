@@ -103,19 +103,6 @@
   line-height: 1.75;
 }
 
-.home-lead--justified {
-  text-wrap: balance;
-  hyphens: auto;
-}
-
-@media screen and (min-width: 601px) {
-  .home-lead--justified {
-    text-align: justify;
-    text-justify: inter-word;
-    text-wrap: pretty;
-  }
-}
-
 .page__content h2 {
   margin-top: 2.2rem;
   letter-spacing: 0;
@@ -123,6 +110,21 @@
 
 .page__content li {
   margin-bottom: 0.45rem;
+}
+
+.publication-author {
+  font-weight: 700;
+}
+
+.publication-tail,
+.publication-tail a {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 400px) {
+  .publication-tail {
+    white-space: normal;
+  }
 }
 
 .site-note {

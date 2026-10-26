@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-lead home-lead--justified">I am an undergraduate researcher interested in developing innovative, experimentally grounded robot learning methods and systems for real-world deployment.</p>
+<p class="home-lead">I am an undergraduate researcher interested in developing innovative, experimentally grounded robot learning methods and systems for real-world deployment.</p>
 
 ## Current Role
 
@@ -21,7 +21,7 @@ I am pursuing a B.S. in **Applied Mathematics & Computational Sciences / Compute
 
 ## Publications
 
-Tang, W., Jin, Y., & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](https://doi.org/10.2139/ssrn.7488401). *SSRN Preprint.* Manuscript under review. [Source data](https://github.com/tangweibo72-dot/End-to-end-solar-cell).
+Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](https://doi.org/10.2139/ssrn.7488401). *SSRN Preprint.* <span class="publication-tail">Manuscript under review. <a href="https://github.com/tangweibo72-dot/End-to-end-solar-cell">Source data</a>.</span>
 
 ## Projects
 
