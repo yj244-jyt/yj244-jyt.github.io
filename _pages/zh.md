@@ -28,6 +28,8 @@ Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026)
 
 ### 使用手眼标定进行 SLAM 精度评估 <a class="project-github-link" href="https://github.com/yj244-jyt/ego-robot-calibration-public" title="在 GitHub 上查看项目" aria-label="在 GitHub 上查看使用手眼标定进行 SLAM 精度评估项目"><i class="fab fa-github" aria-hidden="true"></i></a>
 
+一个公开且与设备无关的测试流程，通过手眼标定、同步轨迹回放以及分别报告平移和旋转误差来评估 SLAM 精度。
+
 ## 研究兴趣
 
 - 机器人学习与具身智能
