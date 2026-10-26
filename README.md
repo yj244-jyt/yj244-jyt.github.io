@@ -4,6 +4,8 @@ This repository contains the source for [yj244-jyt.github.io](https://yj244-jyt.
 
 The English homepage is served at `/`, and the Chinese homepage is served at `/zh/`. GitHub Actions builds and deploys the Jekyll site after each push to `main`.
 
+The English homepage is the canonical content source. Update `_pages/about.md` first, then keep `_pages/zh.md` as its faithful Chinese translation in the same change.
+
 ## Local preview
 
 ```bash
