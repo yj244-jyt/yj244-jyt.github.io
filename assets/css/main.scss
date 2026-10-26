@@ -103,6 +103,11 @@
   line-height: 1.75;
 }
 
+.home-lead strong {
+  color: var(--global-text-color);
+  font-weight: 700;
+}
+
 .page__content h2 {
   margin-top: 2.2rem;
   letter-spacing: 0;

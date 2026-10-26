@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-lead">I am an undergraduate researcher interested in developing innovative and experimental robot policies and systems that are useful in the physical world.</p>
+<p class="home-lead"><strong>I am an undergraduate researcher interested in developing innovative and experimental robot policies and systems that are useful in the physical world.</strong></p>
 
 ## Current Role
 
