@@ -31,7 +31,7 @@ Investigating equivariant learning methods and 3D point-cloud-based robot polici
 
 ### SLAM Accuracy Evaluation using Hand-Eye Calibration <a class="project-github-link" href="https://github.com/yj244-jyt/ego-robot-calibration-public" title="View project on GitHub" aria-label="View SLAM Accuracy Evaluation using Hand-Eye Calibration on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
 
-A public, device-independent test walkthrough for evaluating SLAM accuracy with hand-eye calibration, synchronized trajectory replay, and separate translation and rotation error reporting.
+A device-independent test walkthrough for evaluating SLAM accuracy with hand-eye calibration, synchronized trajectory replay, and separate translation and rotation error reporting.
 
 ## Research Interests
 
