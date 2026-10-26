@@ -21,7 +21,7 @@ I am pursuing a B.S. in **Applied Mathematics & Computational Sciences / Compute
 
 ## Publications
 
-Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](https://doi.org/10.2139/ssrn.7488401). *SSRN Preprint.* <span class="publication-tail">Manuscript under review. <a href="https://github.com/tangweibo72-dot/End-to-end-solar-cell">Source data</a>.</span>
+Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](/files/AFM_Manuscript.pdf). *SSRN Preprint.* <span class="publication-tail">Manuscript under review. <a href="https://github.com/tangweibo72-dot/End-to-end-solar-cell">Source data</a>.</span>
 
 ## Projects
 

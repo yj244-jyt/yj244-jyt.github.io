@@ -18,7 +18,7 @@ author_profile: true
 
 ## 发表成果
 
-Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](https://doi.org/10.2139/ssrn.7488401). *SSRN 预印本。* <span class="publication-tail">稿件审稿中。<a href="https://github.com/tangweibo72-dot/End-to-end-solar-cell">源数据</a>。</span>
+Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](/files/AFM_Manuscript.pdf). *SSRN 预印本。* <span class="publication-tail">稿件审稿中。<a href="https://github.com/tangweibo72-dot/End-to-end-solar-cell">源数据</a>。</span>
 
 ## 项目
 
