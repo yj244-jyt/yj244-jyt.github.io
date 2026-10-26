@@ -19,6 +19,16 @@ I am a **Research Intern at [Noematrix](https://www.noematrix.ai/en)**, an embod
 
 I am pursuing a B.S. in **Applied Mathematics & Computational Sciences / Computer Science** at **Duke Kunshan University and Duke University**, Class of 2028.
 
+## Publications
+
+Tang, W., Jin, Y., & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](https://doi.org/10.2139/ssrn.7488401). *SSRN Preprint.* Manuscript under review. [Source data](https://github.com/tangweibo72-dot/End-to-end-solar-cell).
+
+## Projects
+
+### Equivariant Neural Network in Robot Policy
+
+Investigating equivariant learning methods and 3D point-cloud-based robot policies.
+
 ## Research Interests
 
 - Robot Learning and Embodied AI

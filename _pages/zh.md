@@ -16,6 +16,16 @@ author_profile: true
 
 我目前就读于**昆山杜克大学与杜克大学**，攻读**应用数学与计算科学 / 计算机科学**学士学位，预计于 2028 年毕业。
 
+## 发表成果
+
+Tang, W., Jin, Y., & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](https://doi.org/10.2139/ssrn.7488401). *SSRN 预印本，稿件审稿中。* [源数据](https://github.com/tangweibo72-dot/End-to-end-solar-cell)。
+
+## 项目
+
+### 机器人策略中的等变神经网络
+
+研究等变学习方法与基于三维点云的机器人策略。
+
 ## 研究兴趣
 
 - 机器人学习与具身智能
