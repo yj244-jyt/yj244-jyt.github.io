@@ -26,6 +26,8 @@ Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026)
 
 研究等变学习方法与基于三维点云的机器人策略。
 
+### 使用手眼标定进行 SLAM 精度评估 <a class="project-github-link" href="https://github.com/yj244-jyt/ego-robot-calibration-public" title="在 GitHub 上查看项目" aria-label="在 GitHub 上查看使用手眼标定进行 SLAM 精度评估项目"><i class="fab fa-github" aria-hidden="true"></i></a>
+
 ## 研究兴趣
 
 - 机器人学习与具身智能

@@ -29,6 +29,8 @@ Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026)
 
 Investigating equivariant learning methods and 3D point-cloud-based robot policies.
 
+### SLAM Accuracy Evaluation using Hand-Eye Calibration <a class="project-github-link" href="https://github.com/yj244-jyt/ego-robot-calibration-public" title="View project on GitHub" aria-label="View SLAM Accuracy Evaluation using Hand-Eye Calibration on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+
 ## Research Interests
 
 - Robot Learning and Embodied AI
