@@ -143,6 +143,10 @@
     z-index: 30;
   }
 
+  .author__urls-wrapper.is-open .author__urls {
+    display: block;
+  }
+
   .author__urls li,
   .author__urls a {
     white-space: nowrap;

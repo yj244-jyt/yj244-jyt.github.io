@@ -137,10 +137,6 @@ function redrawPlotly() {
    ========================================================================== */
 
 $(document).ready(function () {
-  // SCSS SETTINGS - These should be the same as the settings in the relevant files
-  const scssLarge = 925;          // pixels, from /_sass/_themes.scss
-  const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
-
   // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
   window.matchMedia('(prefers-color-scheme: dark)')
@@ -168,23 +164,5 @@ $(document).ready(function () {
     }}, 250);
   var didResize = false;
   bumpIt();
-
-  // Follow menu drop down
-  $(".author__urls-wrapper button").on("click", function () {
-    const button = $(this);
-    const menu = button.siblings(".author__urls");
-    const willOpen = button.attr("aria-expanded") !== "true";
-
-    menu.stop(true, true).fadeToggle("fast");
-    button.toggleClass("open", willOpen);
-    button.attr("aria-expanded", willOpen.toString());
-  });
-
-  // Restore the follow menu if toggled on a window resize
-  jQuery(window).on('resize', function () {
-    if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
-      $(".author__urls").css('display', 'block')
-    }
-  });
 
 });
