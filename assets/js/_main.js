@@ -171,8 +171,13 @@ $(document).ready(function () {
 
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function () {
-    $(".author__urls").fadeToggle("fast", function () { });
-    $(".author__urls-wrapper button").toggleClass("open");
+    const button = $(this);
+    const menu = button.siblings(".author__urls");
+    const willOpen = button.attr("aria-expanded") !== "true";
+
+    menu.stop(true, true).fadeToggle("fast");
+    button.toggleClass("open", willOpen);
+    button.attr("aria-expanded", willOpen.toString());
   });
 
   // Restore the follow menu if toggled on a window resize
