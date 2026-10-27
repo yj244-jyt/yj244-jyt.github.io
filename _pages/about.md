@@ -25,7 +25,7 @@ Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026)
 
 ## Projects
 
-### Equivariant Neural Network in Robot Policy
+### Equivariant Neural Network in Robot Policy <a class="project-github-link" href="https://github.com/yj244-jyt/so3-equivariant-transformer-robot-policy" title="View project on GitHub" aria-label="View Equivariant Neural Network in Robot Policy on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
 
 Investigating equivariant learning methods and 3D point-cloud-based robot policies.
 

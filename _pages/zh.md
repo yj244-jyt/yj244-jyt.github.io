@@ -22,7 +22,7 @@ Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026)
 
 ## 项目
 
-### 机器人策略中的等变神经网络
+### 机器人策略中的等变神经网络 <a class="project-github-link" href="https://github.com/yj244-jyt/so3-equivariant-transformer-robot-policy" title="在 GitHub 上查看项目" aria-label="在 GitHub 上查看机器人策略中的等变神经网络项目"><i class="fab fa-github" aria-hidden="true"></i></a>
 
 研究等变学习方法与基于三维点云的机器人策略。
 
