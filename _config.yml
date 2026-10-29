@@ -13,6 +13,7 @@ repository: "yj244-jyt/yj244-jyt.github.io"
 author:
   avatar: "profile.jpg"
   name: "Yitian Jin"
+  name_zh: "金奕天"
   bio: "Research intern working on embodied AI and robot learning."
   bio_zh: "具身智能与机器人学习方向研究实习生。"
   location: "Shanghai, China"

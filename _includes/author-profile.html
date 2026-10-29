@@ -2,16 +2,18 @@
 {% assign author = site.author %}
 {% assign is_chinese = false %}
 {% if page.lang == "zh-CN" %}{% assign is_chinese = true %}{% endif %}
+{% assign author_name = author.name %}
+{% if is_chinese %}{% assign author_name = author.name_zh %}{% endif %}
 
 <div class="author-profile" itemscope itemtype="https://schema.org/Person">
   <div class="author__avatar">
     <div class="author__avatar-frame">
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="Yitian Jin" fetchpriority="high" itemprop="image" />
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author_name }}" fetchpriority="high" itemprop="image" />
     </div>
   </div>
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    <h3 class="author__name" itemprop="name">{{ author_name }}</h3>
     <p class="author__bio" itemprop="description">{% if is_chinese %}{{ author.bio_zh }}{% else %}{{ author.bio }}{% endif %}</p>
   </div>
 
