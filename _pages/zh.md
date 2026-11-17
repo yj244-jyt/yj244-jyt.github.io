@@ -10,7 +10,7 @@ author_profile: true
 
 ## 当前经历
 
-我目前在研发通用机器人智能的具身智能公司[穹彻智能（Noematrix）](https://www.noematrix.ai/en)担任**研究实习生**。我的工作主要包括在实体机器人平台上部署机器人策略、手眼标定、SLAM 精度评估、搭建遥操作平台，以及构建闭环基准评测流程。
+我目前在研发通用机器人智能的具身智能公司[穹彻智能（Noematrix）](https://www.noematrix.ai/en)担任**研究实习生**。我的工作主要包括在实体机器人平台上部署机器人策略、数据增强、手眼标定、SLAM 精度评估、搭建遥操作平台，以及构建闭环基准评测流程。
 
 ## 教育经历
 
@@ -18,7 +18,7 @@ author_profile: true
 
 ## 发表成果
 
-Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026). [Topology-Guided End-to-End Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](/files/AFM_Manuscript.pdf). *SSRN 预印本。* <span class="publication-tail">稿件审稿中。<a href="https://github.com/tangweibo72-dot/End-to-end-solar-cell">源数据</a>。</span>
+Tang, W., <strong class="publication-author">Jin, Y.</strong>, & Wang, X. (2026). [Topology-Guided End-to-end Machine Learning for Rapid Spectrum-Dependent Photovoltaic Optimization](/files/AFM_Manuscript.pdf). *SSRN 预印本。* <span class="publication-tail">稿件审稿中。<a href="https://github.com/tangweibo72-dot/End-to-end-solar-cell">源数据</a>。</span>
 
 ## 项目
 
